@@ -32,6 +32,7 @@ setup(name="pyxs",
       version="0.4.1",
       packages=["pyxs"],
       setup_requires=["pytest-runner"],
+      install_requires=["setuptools_scm==3.4.1"]
       tests_require=["pytest"],
       platforms=["any"],
 
